@@ -1,6 +1,6 @@
 body {
   max-width: 50rem;
-  font-size: 14pt;
+  font-size: 15pt;
   margin: auto;
   font-family: sans-serif;
 }
@@ -38,8 +38,19 @@ a:hover {
   margin: 0.1rem auto;
 }
 
-h2 {
+h2, h3 {
+  font-variant-caps: petite-caps;
+  font-size: 150%;
+}
+
+h2, h3, h4 {
   text-align: center;
+}
+
+#toc li {
+  list-style-position: inside;
+  text-indent: -5em;
+  margin-left: 5em;
 }
 
 table {
@@ -58,6 +69,11 @@ hr {
   width: 35%;
 }
 
+hr.sep {
+  border-top: 0.5em solid #00000022;
+  width: 75%;
+}
+
 q {
   quotes: "“" "”" "‘" "’";
 }
@@ -68,4 +84,14 @@ q::before {
 
 q::after {
   content: close-quote;
+}
+
+p {
+  margin: 0.1em 0;
+  text-indent: 1.5em;
+  line-height: 1.15em;
+}
+
+p:first-of-type {
+  text-indent: 0;
 }
