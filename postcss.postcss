@@ -19,19 +19,21 @@ a {
   color: #080;
   text-decoration: none;
   border-bottom: 1px dashed #383;
+
+  &:hover {
+    color: #0A0;
+    border-bottom: 1px dotted #3A3;
+  }
 }
 
-a:hover {
-  color: #0A0;
-  border-bottom: 1px dotted #3A3;
-}
+#frontmatter, #dedication {
+  & > * {
+    text-align: center;
+  }
 
-#frontmatter > *, #dedication > * {
-  text-align: center;
-}
-
-#frontmatter h3, #dedication h3 {
-  font-weight: normal;
+  h3 {
+    font-weight: normal;
+  }
 }
 
 #dedication h3 {
@@ -45,12 +47,12 @@ h2 {
 table {
   border-collapse: collapse;
   margin: auto;
-}
 
-table th, table td {
-  text-align: center;
-  border: 2px solid black;
-  padding: 0.25rem 0.5rem;
+  th, td {
+    text-align: center;
+    border: 2px solid black;
+    padding: 0.25rem 0.5rem;
+  }
 }
 
 hr {
@@ -60,12 +62,12 @@ hr {
 
 q {
   quotes: "“" "”" "‘" "’";
-}
 
-q::before {
-  content: open-quote;
-}
+  &::before {
+    content: open-quote;
+  }
 
-q::after {
-  content: close-quote;
+  &::after {
+    content: close-quote;
+  }
 }
