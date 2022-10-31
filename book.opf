@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<package prefix="calibre: https://calibre-ebook.com" unique-identifier="uuid" version="2.0" xmlns="http://www.idpf.org/2007/opf">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <dc:identifier id="uuid">uuid:af81e9ba-58c4-11ed-ba89-23fbec2f3661</dc:identifier>
+    <dc:title id="title">Don’t Believe Everything You Think</dc:title>
+    <dc:creator id="author">Joseph Nguyen</dc:creator>
+    <dc:date>2022-10-30T22:35:50+04:00</dc:date>
+    <dc:language>en</dc:language>
+    <meta property="title-type" refines="#title">main</meta>
+    <meta property="file-as" refines="#title">Don’t Believe Everything You Think</meta>
+    <meta content="cover.html" name="cover"/>
+    <meta property="role" refines="#author" scheme="marc:relators">aut</meta>
+    <meta property="file-as" refines="#author">Nguyen, Joseph</meta>
+    <meta property="role" refines="#contrib" scheme="marc:relators">bkp</meta>
+    <meta property="dcterms:modified">2022-10-26T02:18:44</meta>
+  </metadata>
+  <manifest>
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
+    <item href="cover.html" id="coverpage" media-type="text/html"/>
+    <item href="title/jpeg.jpeg" id="titlepage" media-type="image/jpeg" properties="calibre:title-page"/>
+    <item href="html.html" id="body" media-type="text/html"/>
+    <item href="css.css" id="css" media-type="text/css"/>
+    <item href="nav/xhtml" id="nav" media-type="application/xhtml+xml" properties="nav"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="coverpage"/>
+    <itemref idref="titlepage"/>
+    <itemref idref="dedication"/>
+    <itemref idref="introduction"/>
+    <itemref idref="section-1"/>
+    <itemref idref="section-2"/>
+    <itemref idref="section-3"/>
+    <itemref idref="section-4"/>
+  </spine>
+  <guide>
+    <reference href="cover/jpeg" title="Cover" type="other.ms-coverimage-standard"/>
+  </guide>
+</package>

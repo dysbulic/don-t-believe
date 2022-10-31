@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ncx version="2005-1" xmlns="http://www.daisy.org/z3986/2005/ncx/">
+  <head>
+    <meta content="uuid:0df70291-cf71-4772-a569-a66616296bba" name="dtb:uid"/>
+    <meta content="1" name="dtb:depth"/>
+    <meta content="0" name="dtb:totalPageCount"/>
+    <meta content="0" name="dtb:maxPageNumber"/>
+  </head>
+  <docTitle>
+    <text>The Road Less Traveled</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="coverpage" playOrder="1">
+      <navLabel>
+        <text>coverpage</text>
+      </navLabel>
+      <content src="cover/xhtml"/>
+    </navPoint>
+    <navPoint id="titlepage" playOrder="2">
+      <navLabel>
+        <text>titlepage</text>
+      </navLabel>
+      <content src="title/xhtml"/>
+    </navPoint>
+    <navPoint id="dedication" playOrder="3">
+      <navLabel>
+        <text>dedication</text>
+      </navLabel>
+      <content src="dedication/xhtml"/>
+    </navPoint>
+    <navPoint id="introduction" playOrder="4">
+      <navLabel>
+        <text>introduction</text>
+      </navLabel>
+      <content src="Introduction/xhtml"/>
+    </navPoint>
+    <navPoint id="section-1" playOrder="5">
+      <navLabel>
+        <text>section-1</text>
+      </navLabel>
+      <content src="Discipline/xhtml"/>
+    </navPoint>
+    <navPoint id="section-2" playOrder="6">
+      <navLabel>
+        <text>section-2</text>
+      </navLabel>
+      <content src="Love/xhtml"/>
+    </navPoint>
+    <navPoint id="section-3" playOrder="7">
+      <navLabel>
+        <text>section-3</text>
+      </navLabel>
+      <content src="Growth and Religion/xhtml"/>
+    </navPoint>
+    <navPoint id="section-4" playOrder="8">
+      <navLabel>
+        <text>section-4</text>
+      </navLabel>
+      <content src="Grace/xhtml"/>
+    </navPoint>
+  </navMap>
+</ncx>

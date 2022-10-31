@@ -1,0 +1,30 @@
+path {
+  fill:none;
+  stroke-linecap: round;
+  stroke-linejoin:round;
+  stroke-dasharray: 13000;
+  animation: draw 10s ease-in-out alternate infinite;
+}
+
+path:hover {
+  animation-play-state: paused;
+}
+
+@keyframes draw {
+  0% {
+    stroke: green;
+    stroke-dashoffset: 0;
+    stroke-width: 2.5;
+  }
+  25% { stroke: red }
+  50% {
+    stroke: orange;
+    stroke-width: 8;
+ }
+  75% { stroke: purple }
+  100% {
+    stroke: blue;
+    stroke-dashoffset: 13000;
+    stroke-width: 0.5;
+  }
+}

@@ -5,16 +5,13 @@ import rename from 'gulp-rename'
 import autoprefixer from 'autoprefixer'
 import postcssNested from 'postcss-nested'
 
-const styleFile = 'postcss.postcss'
+const styleFile = '*.postcss'
 
 export const css = () => (
   gulp.src(styleFile)
   .pipe(postcss([autoprefixer, postcssNested]))
   .pipe(cssbeautify({ indent: '  ' }))
-  .pipe(rename({
-    basename: 'css',
-    extname: '.css',
-  }))
+  .pipe(rename({ extname: '.css' }))
   .pipe(gulp.dest('.'))
 )
 
