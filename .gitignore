@@ -10,5 +10,6 @@
 #!.yarn/cache
 .pnp.*
 
-css.css
+*.css
 **/*.pdf
+Joseph Nguyen — Don’t Believe Everything You Think.epub

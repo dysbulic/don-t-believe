@@ -1,15 +1,17 @@
 {
-  "name": "Joseph Nguyen — Don't Believe Everything You Think",
-  "description": "Why Your Thinking Is The Beginning & End Of Suffering",
+  "name": "nguyen-don-t-believe",
+  "description": "Joseph Nguyen — Don’t Believe Everything You Think: Why Your Thinking Is The Beginning & End Of Suffering",
   "author": "dysbulic <dys@dhappy.org>",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "license": "© 2022 Joseph Nguyen",
   "type": "module",
   "scripts": {
     "build": "gulp",
     "dev": "gulp watch",
     "clean": "rm -v css.css",
-    "tasks": "gulp --tasks"
+    "tasks": "gulp --tasks",
+    "css": "gulp css",
+    "epub": "gulp epub"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.12",
@@ -17,6 +19,7 @@
     "gulp-cssbeautify": "^3.0.1",
     "gulp-postcss": "^9.0.1",
     "gulp-rename": "^2.0.0",
+    "gulp-zip": "^5.1.0",
     "postcss": "^8.4.18",
     "postcss-nested": "^6.0.0"
   },

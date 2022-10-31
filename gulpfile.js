@@ -4,6 +4,7 @@ import cssbeautify from 'gulp-cssbeautify'
 import rename from 'gulp-rename'
 import autoprefixer from 'autoprefixer'
 import postcssNested from 'postcss-nested'
+import zip from 'gulp-zip'
 
 const styleFile = '*.postcss'
 
@@ -19,4 +20,10 @@ export const watch = () => (
   gulp.watch([styleFile], css)
 )
 
-gulp.task('default', gulp.series(css))
+export const epub = () => (
+  gulp.src(['**/*', '!.yarn/*', '!**/*.pdf', '!**/*.epub'])
+  .pipe(zip('Joseph Nguyen — Don’t Believe Everything You Think.epub'))
+  .pipe(gulp.dest('.'))
+)
+
+gulp.task('default', gulp.series(css, epub))
