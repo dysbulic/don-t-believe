@@ -25,15 +25,15 @@
     <item id="fullcoverimage" href="cover.jpg" media-type="image/jpeg"/>
     <item id="coverimage" href="head.svg" media-type="image/svg+xml"/>
     <item id="covercss" href="cover.css" media-type="text/css"/>
-    <item id="body" href="content.html" media-type="application/xhtml+xml"/>
+    <item id="body" href="index.html" media-type="application/xhtml+xml"/>
     <item id="bodycss" href="content.css" media-type="text/css"/>
   </manifest>
   <spine toc="ncx">
-    <itemref idref="fullcoverimage"/>
+    <itemref idref="coverpage"/>
     <itemref idref="body"/>
   </spine>
   <guide>
-    <reference href="cover.jpg" title="Cover" type="cover"/>
-    <reference href="content.html#introduction" title="Beginning" type="text"/>
+    <reference href="cover.html" title="Cover" type="cover"/>
+    <reference href="index.html#introduction" title="Beginning" type="text"/>
   </guide>
 </package>

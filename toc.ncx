@@ -23,192 +23,192 @@
       <navLabel>
         <text>Copyright</text>
       </navLabel>
-      <content src="content.html#frontmatter"/>
+      <content src="index.html#frontmatter"/>
     </navPoint>
     <navPoint playOrder="3">
       <navLabel>
         <text>Dedication</text>
       </navLabel>
-      <content src="content.html#dedication"/>
+      <content src="index.html#dedication"/>
     </navPoint>
     <navPoint playOrder="4">
       <navLabel>
         <text>Acknowledgments</text>
       </navLabel>
-      <content src="content.html#acknowledgements"/>
+      <content src="index.html#acknowledgements"/>
     </navPoint>
     <navPoint playOrder="5">
       <navLabel>
         <text>Introduction</text>
       </navLabel>
-      <content src="content.html#introduction"/>
+      <content src="index.html#introduction"/>
     </navPoint>
     <navPoint playOrder="6">
       <navLabel>
         <text>1: The Journey to Finding the Root Cause of Suffering</text>
       </navLabel>
-      <content src="content.html#chapter-1"/>
+      <content src="index.html#chapter-1"/>
     </navPoint>
     <navPoint playOrder="7">
       <navLabel>
         <text>2: The Root Cause of All Suffering</text>
       </navLabel>
-      <content src="content.html#chapter-2"/>
+      <content src="index.html#chapter-2"/>
     </navPoint>
     <navPoint playOrder="8">
       <navLabel>
         <text>3: Why Do We Even Think?</text>
       </navLabel>
-      <content src="content.html#chapter-3"/>
+      <content src="index.html#chapter-3"/>
     </navPoint>
     <navPoint playOrder="9">
       <navLabel>
         <text>4: Thoughts Vs. Thinking</text>
       </navLabel>
-      <content src="content.html#chapter-4"/>
+      <content src="index.html#chapter-4"/>
     </navPoint>
     <navPoint playOrder="10">
       <navLabel>
         <text>5: If We Can Only Feel What We’re Thinking, Don’t We Need to Think Positively to Feel That Way?</text>
       </navLabel>
-      <content src="content.html#chapter-5"/>
+      <content src="index.html#chapter-5"/>
     </navPoint>
     <navPoint playOrder="11">
       <navLabel>
         <text>6: How the Human Experience is Created — The Three Principles</text>
       </navLabel>
-      <content src="content.html#chapter-6"/>
+      <content src="index.html#chapter-6"/>
     </navPoint>
     <navPoint playOrder="12">
       <navLabel>
         <text>7: If Thinking Is the Root Cause of Our Suffering, How Do We Stop Thinking?</text>
       </navLabel>
-      <content src="content.html#chapter-7"/>
+      <content src="index.html#chapter-7"/>
     </navPoint>
     <navPoint playOrder="13">
       <navLabel>
         <text>8: How Can We Possibly Thrive In the World Without Thinking?</text>
       </navLabel>
-      <content src="content.html#chapter-8"/>
+      <content src="index.html#chapter-8"/>
     </navPoint>
     <navPoint playOrder="14">
       <navLabel>
         <text>9: If We Stop Thinking, What Do We Do About Our Goals, Dreams, &amp; Ambitions?</text>
       </navLabel>
-      <content src="content.html#chapter-9"/>
+      <content src="index.html#chapter-9"/>
     </navPoint>
     <navPoint playOrder="15">
       <navLabel>
         <text>10: Unconditional Love &amp; Creation</text>
       </navLabel>
-      <content src="content.html#chapter-10"/>
+      <content src="index.html#chapter-10"/>
     </navPoint>
     <navPoint playOrder="16">
       <navLabel>
         <text>11: What Do You Do Next After Experiencing Peace, Joy, Love, &amp; Fulfillment In the Present?</text>
       </navLabel>
-      <content src="content.html#chapter-11"/>
+      <content src="index.html#chapter-11"/>
     </navPoint>
     <navPoint playOrder="17">
       <navLabel>
         <text>12: Nothing Is Either Good or Bad</text>
       </navLabel>
-      <content src="content.html#chapter-12"/>
+      <content src="index.html#chapter-12"/>
     </navPoint>
     <navPoint playOrder="18">
       <navLabel>
         <text>13: How Do You Know What to Do Without Thinking?</text>
       </navLabel>
-      <content src="content.html#chapter-13"/>
+      <content src="index.html#chapter-13"/>
     </navPoint>
     <navPoint playOrder="19">
       <navLabel>
         <text>14: How to Follow Your Intuition</text>
       </navLabel>
-      <content src="content.html#chapter-14"/>
+      <content src="index.html#chapter-14"/>
     </navPoint>
     <navPoint playOrder="20">
       <navLabel>
         <text>15: Creating Space for Miracles</text>
       </navLabel>
-      <content src="content.html#chapter-15"/>
+      <content src="index.html#chapter-15"/>
     </navPoint>
     <navPoint playOrder="21">
       <navLabel>
         <text>16: What Happens When You Begin Living in Non-Thinking (Potential Obstacles)</text>
       </navLabel>
-      <content src="content.html#chapter-16"/>
+      <content src="index.html#chapter-16"/>
     </navPoint>
     <navPoint playOrder="22">
       <navLabel>
         <text>17: Now What?</text>
       </navLabel>
-      <content src="content.html#chapter-17"/>
+      <content src="index.html#chapter-17"/>
     </navPoint>
     <navPoint playOrder="23">
       <navLabel>
         <text>Summary of Non-Thinking</text>
       </navLabel>
-      <content src="content.html#non-thinking-summary"/>
+      <content src="index.html#non-thinking-summary"/>
       <navPoint playOrder="24">
         <navLabel>
           <text>A Guide to Stop Thinking</text>
         </navLabel>
-        <content src="content.html#guide-to-stop-thinking"/>
+        <content src="index.html#guide-to-stop-thinking"/>
         <navPoint playOrder="25">
           <navLabel>
             <text>Framework For How To Stop Thinking</text>
           </navLabel>
-          <content src="content.html#framework-for-how-to-stop"/>
+          <content src="index.html#framework-for-how-to-stop"/>
         </navPoint>
         <navPoint playOrder="26">
           <navLabel>
             <text>Potential Obstacles</text>
           </navLabel>
-          <content src="content.html#potential-obstacles"/>
+          <content src="index.html#potential-obstacles"/>
         </navPoint>
       </navPoint>
       <navPoint playOrder="27">
         <navLabel>
           <text>How You Will Know If You’re In A State of Non-Thinking</text>
         </navLabel>
-        <content src="content.html#how-you-will-know"/>
+        <content src="index.html#how-you-will-know"/>
         <navPoint playOrder="28">
           <navLabel>
             <text>Reflection Prompts</text>
           </navLabel>
-          <content src="content.html#reflection-prompts"/>
+          <content src="index.html#reflection-prompts"/>
         </navPoint>
       </navPoint>
       <navPoint playOrder="29">
         <navLabel>
           <text>A Guide To Creating A Non-Thinking Environment</text>
         </navLabel>
-        <content src="content.html#creating-an-environment-guide"/>
+        <content src="index.html#creating-an-environment-guide"/>
       </navPoint>
       <navPoint playOrder="30">
         <navLabel>
           <text>Framework For Removing Thinking Triggers</text>
         </navLabel>
-        <content src="content.html#removing-triggers"/>
+        <content src="index.html#removing-triggers"/>
       </navPoint>
       <navPoint playOrder="31">
         <navLabel>
           <text>Framework For Creating A Non-Thinking Environment</text>
         </navLabel>
-        <content src="content.html#creating-an-environment-framework"/>
+        <content src="index.html#creating-an-environment-framework"/>
       </navPoint>
       <navPoint playOrder="32">
         <navLabel>
           <text>Framework For Implementing Non-Thinking Into Your Work</text>
         </navLabel>
-        <content src="content.html#implementing-non-thinking"/>
+        <content src="index.html#implementing-non-thinking"/>
       </navPoint>
       <navPoint playOrder="33">
         <navLabel>
           <text>A Guide To Overcoming Destructive Habits/Behaviors</text>
         </navLabel>
-        <content src="content.html#overcoming-destructive-habits"/>
+        <content src="index.html#overcoming-destructive-habits"/>
       </navPoint>
     </navPoint>
   </navMap>
